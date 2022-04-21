@@ -89,7 +89,6 @@
                                                                                                                                             margin-bottom: 0;
                                                                                                                                             width: 95%;
                                                                                                                                             color: hsl(237, 12%, 33%);
-                                                                                                                                            ;
                                                                                                                                         }
                                                                                                                                         
                                                                                                                                         .accordion-button:hover {
@@ -145,7 +144,7 @@
                                                                                                                                                 overflow: visible !important;
                                                                                                                                             }
                                                                                                                                             .main {
-                                                                                                                                                padding: 5rem 7vw;
+                                                                                                                                                padding: 9rem 7vw;
                                                                                                                                                 min-width: 96vw;
                                                                                                                                             }
                                                                                                                                             .container {
