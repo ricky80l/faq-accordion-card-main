@@ -144,8 +144,8 @@
                                                                                                                                                 overflow: visible !important;
                                                                                                                                             }
                                                                                                                                             .main {
-                                                                                                                                                padding: 9rem 5% 5rem;
-                                                                                                                                                width: 97vw;
+                                                                                                                                                padding: 10rem 7vw 6rem;
+                                                                                                                                                min-width: 100vw;
                                                                                                                                             }
                                                                                                                                             .container {
                                                                                                                                                 background: white url(../images/bg-pattern-mobile.svg) no-repeat center top;
