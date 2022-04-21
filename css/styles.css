@@ -1,0 +1,182 @@
+                                                                                                                                        @charset "UTF-8";
+                                                                                                                                        * {
+                                                                                                                                            margin: 0;
+                                                                                                                                            padding: 0;
+                                                                                                                                            text-decoration: none;
+                                                                                                                                            font-family: 'Kumbh Sans', sans-serif;
+                                                                                                                                            font-weight: 400;
+                                                                                                                                            color: hsl(238, 29%, 16%);
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .flexy {
+                                                                                                                                            display: flex;
+                                                                                                                                            justify-content: center;
+                                                                                                                                            align-items: center;
+                                                                                                                                            flex-direction: column;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        body {
+                                                                                                                                            min-height: 100vh;
+                                                                                                                                        }
+                                                                                                                                        /* MAIN */
+                                                                                                                                        
+                                                                                                                                        main {
+                                                                                                                                            min-height: 75vh;
+                                                                                                                                            width: 80%;
+                                                                                                                                            /* padding: 7% 25%; */
+                                                                                                                                            background: linear-gradient(0deg, hsl(240, 73%, 65%) 35%, hsl(273, 75%, 66%) 100%);
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .container {
+                                                                                                                                            position: relative;
+                                                                                                                                            min-height: 51.5vh;
+                                                                                                                                            max-width: 57rem;
+                                                                                                                                            border-radius: 2rem;
+                                                                                                                                            padding: 3rem 3rem 3rem 0.75rem;
+                                                                                                                                            background: white url(../images/bg-pattern-desktop.svg) no-repeat -32.5rem -18rem;
+                                                                                                                                            background-size: cover;
+                                                                                                                                            box-shadow: 0 15px 20px 3px rgba(0, 0, 0, 0.5);
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        #image {
+                                                                                                                                            overflow-x: hidden;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .illustration-desk {
+                                                                                                                                            position: relative;
+                                                                                                                                            left: -5.5rem;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .illustration-mob {
+                                                                                                                                            display: none;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .box-desk {
+                                                                                                                                            position: absolute;
+                                                                                                                                            top: 11rem;
+                                                                                                                                            left: -5.8rem;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .FAQ {
+                                                                                                                                            font-weight: 700;
+                                                                                                                                            margin-left: 2rem;
+                                                                                                                                            margin-bottom: 2rem;
+                                                                                                                                        }
+                                                                                                                                        /* ACCORDION SECTION */
+                                                                                                                                        
+                                                                                                                                        .accordion-item {
+                                                                                                                                            background-color: transparent;
+                                                                                                                                            margin-left: 2rem;
+                                                                                                                                        }
+                                                                                                                                        /* .accordion {
+    width: 24rem;
+} */
+                                                                                                                                        
+                                                                                                                                        .accordion-flush .accordion-item:last-child {
+                                                                                                                                            border-bottom: 1px solid rgba(0, 0, 0, .125);
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .accordion-button {
+                                                                                                                                            color: hsl(238, 29%, 16%);
+                                                                                                                                            background-color: transparent;
+                                                                                                                                            font-size: 0.85rem;
+                                                                                                                                            margin-right: 5rem;
+                                                                                                                                            padding: 1rem 0.5rem 1rem 0;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .description {
+                                                                                                                                            font-size: 0.75rem;
+                                                                                                                                            margin-bottom: 0;
+                                                                                                                                            width: 95%;
+                                                                                                                                            color: hsl(237, 12%, 33%);
+                                                                                                                                            ;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .accordion-button:hover {
+                                                                                                                                            color: hsl(14, 88%, 65%);
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .accordion-button:not(.collapsed) {
+                                                                                                                                            background-color: transparent;
+                                                                                                                                            color: hsl(238, 29%, 16%);
+                                                                                                                                            font-weight: 700;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .accordion-button:focus {
+                                                                                                                                            box-shadow: none;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .accordion-button::after {
+                                                                                                                                            background-image: url(../images/icon-arrow-down.svg);
+                                                                                                                                            background-size: 100%;
+                                                                                                                                            width: 0.735rem;
+                                                                                                                                            height: 0.5475rem;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .accordion-button:not(.collapsed)::after {
+                                                                                                                                            background-image: url(../images/icon-arrow-down.svg);
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .accordion-body {
+                                                                                                                                            padding: 0 0 1.2rem;
+                                                                                                                                        }
+                                                                                                                                        /* FOOOTER  */
+                                                                                                                                        
+                                                                                                                                        .attribution {
+                                                                                                                                            margin-top: 1rem;
+                                                                                                                                            font-size: 0.65rem;
+                                                                                                                                            text-align: center;
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        .attribution a {
+                                                                                                                                            color: hsl(228, 45%, 44%);
+                                                                                                                                            font-size: 0.75rem;
+                                                                                                                                        }
+                                                                                                                                        /* MEDIA QUERY  */
+                                                                                                                                        
+                                                                                                                                        @media screen and (max-width:1080px) {
+                                                                                                                                            .main {
+                                                                                                                                                padding: 8% 12%;
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        @media screen and (max-width:991px) {
+                                                                                                                                            * {
+                                                                                                                                                overflow: visible !important;
+                                                                                                                                            }
+                                                                                                                                            .main {
+                                                                                                                                                padding: 5rem 7vw;
+                                                                                                                                                min-width: 96vw;
+                                                                                                                                            }
+                                                                                                                                            .container {
+                                                                                                                                                background: white url(../images/bg-pattern-mobile.svg) no-repeat center top;
+                                                                                                                                                background-size: 22rem;
+                                                                                                                                                padding: 2rem
+                                                                                                                                            }
+                                                                                                                                            .FAQ {
+                                                                                                                                                margin-top: 10rem;
+                                                                                                                                                text-align: center;
+                                                                                                                                            }
+                                                                                                                                            .illustration-desk {
+                                                                                                                                                display: none;
+                                                                                                                                            }
+                                                                                                                                            .illustration-mob {
+                                                                                                                                                display: block;
+                                                                                                                                                width: 22rem;
+                                                                                                                                                margin: -12rem auto;
+                                                                                                                                                text-align: center;
+                                                                                                                                            }
+                                                                                                                                            .box-desk {
+                                                                                                                                                display: none;
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                        
+                                                                                                                                        @media screen and (max-width:551px) {
+                                                                                                                                            .illustration-mob {
+                                                                                                                                                width: 100%;
+                                                                                                                                                margin: -9.5rem auto;
+                                                                                                                                            }
+                                                                                                                                            .container {
+                                                                                                                                                background-size: 90%;
+                                                                                                                                            }
+                                                                                                                                        }
